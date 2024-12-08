@@ -29,7 +29,7 @@ A powerful and simple tool to detect Wi-Fi deauthentication (deauth) attacks in 
 
 Usage
 
-    Set your network interface to monitor mode:
+Set your network interface to monitor mode:
 
    ```bash
 sudo ifconfig wlan0 down
@@ -39,10 +39,10 @@ sudo ifconfig wlan0 up
 Replace wlan0 with your network interface name.
 
 Run the script:
-
+ ```
     sudo python3 deauth_detector.py
-
-    Enter your network interface when prompted.
+ ```
+Enter your network interface when prompted.
 
 Example Output
  ```
